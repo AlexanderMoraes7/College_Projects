@@ -3,7 +3,7 @@
 Hello guys! This project is an task required by the Senac College.
 To access the website, you will need start the UwAmp executable that run the apache server and mysql,
 in case if you have mysql server in your pc, will need disable it in services.
-In the database, user and password: root
+In the database, user and password: root.
 It is only possible to access the website, through creation an account that can be deleted after,
 finally, we thank you for the opportunity!
 
