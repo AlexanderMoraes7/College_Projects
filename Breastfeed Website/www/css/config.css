@@ -1,0 +1,23 @@
+.Middle {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 70px;
+    align-items: center;
+}
+
+.Middle button {
+    background-color: #f083ba;
+    color: #FFF;
+    font-size: medium;
+    margin: 5px 0; /* Espaçamento entre os botões */
+    padding: 13px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.Delete{
+    display: none;
+}

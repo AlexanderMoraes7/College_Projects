@@ -1,0 +1,35 @@
+.Middle {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.First, .Second {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px; 
+}
+
+.First1, .First2, .Second1, .Second2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; 
+}
+
+.Middle button {
+    width: 22vh;
+    border-radius: 30px;
+    color: #FFF;
+    background-color: #dc7ebc;
+    margin-top: 10px; 
+}
+
+.Middle img {
+    width: 60%;
+    max-width: 200px; 
+}

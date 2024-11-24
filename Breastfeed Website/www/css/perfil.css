@@ -1,0 +1,98 @@
+.Middle {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    padding-top: 0; /* Espaçamento no topo */
+    margin-top: 0;
+}
+
+.Middle .Label1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Middle img {
+    max-width: 150px;
+    padding-top: 30px;
+    height: 150px; /* Mantém a proporção da imagem */
+    display: flex; /* Remove espaçamento indesejado ao redor da imagem */
+    margin-top: 0 auto; /* Centraliza a imagem horizontalmente */
+    object-fit: cover; /* Garante que a imagem preencha o contêiner de forma adequada */
+}
+
+.Middle .User{
+    border-radius: 100px;
+    padding: 5px;
+    width: 30vh;
+    height: 23vh;
+    
+}
+
+.Middle .Label2{
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Middle .Label2 label{
+    align-self: flex-start;
+    padding: 1%;
+}
+
+.Middle .Label2 p{
+    text-align: center;
+    width: 97%;
+    margin: 0;
+    padding: 1%;
+    background-color: #ececec;
+}
+
+.Middle .Label3{
+    width: 90%;
+    max-width: 500px;
+    padding: 30px 0;
+    margin: 0;
+    display: flex;
+    align-items: center;    
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.Middle .Label3 a {
+    display: flex;
+    width: 70px;
+    justify-content: center;
+    margin: 0; 
+    padding: 0;
+    background-color: #f083ba;
+    border-radius: 30%;
+}
+
+.Middle .Label3 img {
+    display: flex;
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    max-width: 80%; /* Garante que a imagem não ultrapasse a largura */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.Middle #arquivo{
+    text-decoration: underline;
+}
+
+.Middle #arquivo:hover{
+    cursor: pointer;
+}
+
+.Container p{
+    color: #000;
+    align-self: flex-start;
+    padding: 0;
+    margin: 20px 0 0 20px;
+}
